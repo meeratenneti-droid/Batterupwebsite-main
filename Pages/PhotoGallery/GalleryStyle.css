@@ -1,0 +1,88 @@
+body {
+    background-color: #42649b;
+}
+
+p {
+  color: #f6c331;
+}
+
+h3 a {
+   color: #f6c331; 
+}
+
+h1 {
+   color: #f6c331; 
+}
+
+h1 a {
+   color: #f6c331; 
+}
+
+.navbar {
+  background-color: #ee862f;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.hamburger {
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+  display: block;
+}
+
+.menu-links {
+  display: none; 
+  flex-direction: column;
+  width: 100%;
+}
+
+.menu-links a {
+  color: #020672;
+  padding: 15px 0;
+  text-decoration: none;
+  font-size: 18px;
+  border-bottom: 1px solid #ee862f;
+}
+
+.menu-toggle:checked ~ .menu-links {
+  display: flex;
+}
+
+.Gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25vw, 1fr)); 
+    gap: 2vw; 
+    justify-content: center; 
+    justify-items: center; 
+    align-items: center; 
+    max-width: 1200px; 
+    margin: 4vw auto; 
+    padding: 0 4vw;
+}
+
+
+.Gallery img {
+    width: 100%;
+   
+    aspect-ratio: 1 / 1; 
+    
+    object-fit: cover; 
+}
+
+.Gallery a img {
+    width: 100%;
+   
+    aspect-ratio: 1 / 1; 
+    
+    object-fit: cover; 
+
+    border: 0.125vw solid #f6c331;
+}
+
+
+
